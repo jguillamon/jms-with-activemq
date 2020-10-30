@@ -1,0 +1,8 @@
+activemq:
+  image: "webcenter/activemq"
+  environment:
+    ACTIVEMQ_JMX_user1_role: "readwrite"
+    ACTIVEMQ_JMX_user1_password: "jmx_password"
+  ports:
+    - "61616:61616"
+    - "8161:8161"
